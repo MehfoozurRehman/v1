@@ -1,138 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mehfooz-ur-Rehman</title>
-    <link rel="stylesheet" href="css/main.scss">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/main.scss" />
+  </head>
+  <body>
     <!--header-section start-->
     <header class="header">
-        <div class="nav">
-            <a href="index.html" class="logo">Mehfooz-ur-Rehman</a>
-            <div class="menu-btn" onclick="Active()">
-                <div class="menu-btn__burger"></div>
-            </div>
-            <div class="desktop-nav-bar">
-                <a class="desktop-nav-link" href="#projects">Projects</a>
-                <a class="desktop-nav-link" href="#skills">Skills</a>
-                <a class="desktop-nav-link" href="#about">About</a>
-                <a class="desktop-nav-link" href="#contact">Contact</a>
-            </div>
+      <div class="nav">
+        <a href="index.html" class="logo">Mehfooz-ur-Rehman</a>
+        <div class="menu-btn" onclick="Active()">
+          <div class="menu-btn__burger"></div>
         </div>
-        <div class="mobile-nav-bar" id="myLinks">
-                <a class="mobile-nav-link" href="#projects">Projects</a>
-                <a class="mobile-nav-link" href="#skills">Skills</a>
-                <a class="mobile-nav-link" href="#about">About</a>
-                <a class="mobile-nav-link" href="#contact">Contact</a>
+        <div class="desktop-nav-bar">
+          <a class="desktop-nav-link" href="#projects">Projects</a>
+          <a class="desktop-nav-link" href="#skills">Skills</a>
+          <a class="desktop-nav-link" href="#about">About</a>
+          <a class="desktop-nav-link" href="#contact">Contact</a>
         </div>
+      </div>
+      <div class="mobile-nav-bar" id="myLinks">
+        <a class="mobile-nav-link" href="#projects">Projects</a>
+        <a class="mobile-nav-link" href="#skills">Skills</a>
+        <a class="mobile-nav-link" href="#about">About</a>
+        <a class="mobile-nav-link" href="#contact">Contact</a>
+      </div>
     </header>
     <main class="main">
-        <!--hero-section start-->
-        <section class="hero-section">
-            <div class="hero-section-content left">
-                <div class="benifits">Start a digital life<span>Expand your Buisness</span></div>
-                <div class="designation">Frontend Developer & UI/UX Designer</div>
-                <div class="cta">
-                    <a href="#projects" class="cta-projects">My Work</a>
-                    <a href="#contact" class="cta-contact">Contact</a>
-                </div>
+      <!--hero-section start-->
+      <section class="hero-section">
+        <div class="hero-section-content left">
+          <div class="benifits">
+            Start a digital life<span>Expand your Buisness</span>
+          </div>
+          <div class="designation">Frontend Developer & UI/UX Designer</div>
+          <div class="cta">
+            <a href="#projects" class="cta-projects">My Work</a>
+            <a href="#contact" class="cta-contact">Contact</a>
+          </div>
+        </div>
+        <div class="social-section right">
+          <a href="https://twitter.com/Mehfooz47928803" class="social-links"
+            ><img
+              src="./assets/Icon awesome-twitter.svg"
+              alt="twitter"
+              class="image"
+          /></a>
+          <a
+            href="https://www.facebook.com/MehfoozurRehmanIjaz"
+            class="social-links"
+            ><img
+              src="./assets/Icon ionic-logo-facebook.svg"
+              alt="facebook"
+              class="image"
+          /></a>
+          <a href="MAILTO:mehfoozijaz786@gmail.com" class="social-links"
+            ><img
+              src="./assets/Icon ionic-ios-mail.svg"
+              alt="mail"
+              class="image"
+          /></a>
+          <a href="https://github.com/MehfoozurRehman" class="social-links"
+            ><img
+              src="./assets/Icon awesome-github.svg"
+              alt="github"
+              class="image"
+          /></a>
+        </div>
+      </section>
+      <!--hero-section end-->
+
+      <!--project start-->
+      <section id="projects" class="projects">
+        <div class="heading">Projects</div>
+        <div class="project-list">
+          <div class="project-card">
+            <img
+              src="assets/project/project-1.jpg"
+              alt="project-pic"
+              class="project-pic"
+            />
+            <div class="info-card">
+              <div class="project-name">FBMA Corp.</div>
+              <div class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                modi ullam, reiciendis aliquam inventore non.
+              </div>
+              <a href="https://fbmacorp.web.app/" class="project-link"
+                >Live Site</a
+              >
             </div>
-            <div class="social-section right">
-                <a href="https://twitter.com/Mehfooz47928803" class="social-links"><img src="./assets/Icon awesome-twitter.svg" alt="twitter" class="image"></a>
-                <a href="https://www.facebook.com/MehfoozurRehmanIjaz"  class="social-links"><img src="./assets/Icon ionic-logo-facebook.svg" alt="facebook" class="image"></a>
-                <a href="MAILTO:mehfoozijaz786@gmail.com" class="social-links"><img src="./assets/Icon ionic-ios-mail.svg" alt="mail" class="image"></a>
-                <a href="https://github.com/MehfoozurRehman" class="social-links"><img src="./assets/Icon awesome-github.svg" alt="github" class="image"></a>
+          </div>
+          <div class="project-card">
+            <img
+              src="assets/project/project-2.jpg"
+              alt="project-pic"
+              class="project-pic"
+            />
+            <div class="info-card">
+              <div class="project-name">Online App Website</div>
+              <div class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                modi ullam, reiciendis aliquam inventore non.
+              </div>
+              <a
+                href="https://online-app-website.firebaseapp.com/"
+                class="project-link"
+                >Live Site</a
+              >
             </div>
-        </section>
-        <!--hero-section end-->
-
-        <!--project start-->
-        <section id="projects" class="projects">
-            <div class="heading">Projects</div>
-            <div class="project-list">
-                <div class="project-card">
-                    <img src="assets/project/project-1.jpg" alt="project-pic" class="project-pic">
-                    <div class="info-card">
-                        <div class="project-name">FBMA Corp.</div>
-                        <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi ullam, reiciendis aliquam inventore non.</div>
-                        <a href="https://fbmacorp.web.app/" class="project-link">Live Site</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/project/project-2.jpg" alt="project-pic" class="project-pic">
-                    <div class="info-card">
-                        <div class="project-name">Online App Website</div>
-                        <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi ullam, reiciendis aliquam inventore non.</div>
-                        <a href="https://online-app-website.firebaseapp.com/" class="project-link">Live Site</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/project/to-do_pwa.PNG" alt="project-pic" class="project-pic">
-                    <div class="info-card">
-                        <div class="project-name">To Do List</div>
-                        <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi ullam, reiciendis aliquam inventore non.</div>
-                        <a href="https://to-do-list-project-5ac80.web.app/" class="project-link">Live Site</a>
-                    </div>
-                </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="assets/project/to-do_pwa.PNG"
+              alt="project-pic"
+              class="project-pic"
+            />
+            <div class="info-card">
+              <div class="project-name">To Do List</div>
+              <div class="project-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                modi ullam, reiciendis aliquam inventore non.
+              </div>
+              <a
+                href="https://to-do-list-project-5ac80.web.app/"
+                class="project-link"
+                >Live Site</a
+              >
             </div>
-        </section>
-        <!--projects end-->
+          </div>
+        </div>
+      </section>
+      <!--projects end-->
 
-        <!--services start-->
-        <section id="skills" class="skills">
-            <div class="heading">Skills</div>
-            <div class="wraper-skills">
-                <img src="assets/skills/icons8-bootstrap-480.png" alt="bootstrap-logo">
-                <img src="assets/skills/icons8-html-5-480.png" alt="html-logo">
-                <img src="assets/skills/icons8-css3-480.png" alt="css-logo">
-                <img src="assets/skills/icons8-javascript-480.png" alt="js-logo">
-                <img src="assets/skills/icons8-php-logo-480.png" alt="php-logo">
-                <img src="assets/skills/icons8-adobe-xd-480.png" alt="xd-logo">
-                <img src="assets/skills/icons8-adobe-photoshop-480.png" alt="photoshop-logo">
-                <img src="assets/skills/icons8-adobe-illustrator-480.png" alt="illustrator-logo">
-            </div>   
-        </section>
-        <!--services end-->
+      <!--services start-->
+      <section id="skills" class="skills">
+        <div class="heading">Skills</div>
+        <div class="wraper-skills">
+          <img
+            src="assets/skills/icons8-bootstrap-480.png"
+            alt="bootstrap-logo"
+          />
+          <img src="assets/skills/icons8-html-5-480.png" alt="html-logo" />
+          <img src="assets/skills/icons8-css3-480.png" alt="css-logo" />
+          <img src="assets/skills/icons8-javascript-480.png" alt="js-logo" />
+          <img src="assets/skills/icons8-php-logo-480.png" alt="php-logo" />
+          <img src="assets/skills/icons8-adobe-xd-480.png" alt="xd-logo" />
+          <img
+            src="assets/skills/icons8-adobe-photoshop-480.png"
+            alt="photoshop-logo"
+          />
+          <img
+            src="assets/skills/icons8-adobe-illustrator-480.png"
+            alt="illustrator-logo"
+          />
+        </div>
+      </section>
+      <!--services end-->
 
-        <!--about start-->
-        <section id="about" class="about">
-            <div class="heading">About Me</div>
-            <div class="wraper-skills">
-                <img src="assets/pic.jpg" alt="pic">
-                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestias enim fuga, corrupti eius consectetur officia a recusandae cupiditate natus odio. Distinctio velit provident quod molestias repellat dolores illum esse iure error? Voluptas id ipsam velit possimus praesentium accusamus sapiente cumque eos cum, quo perferendis illo consequuntur non odit cupiditate vero, vitae sit fugiat, provident eius qui. Omnis excepturi ullam minus exercitationem harum sapiente obcaecati nostrum distinctio atque ea, amet sed nisi officia totam molestias deleniti consequatur quidem iste rem, expedita non. Placeat delectus libero soluta? Odio illo dolore accusantium eaque perspiciatis quas, ipsam nesciunt, minus totam ut, recusandae iure.</p>
-            </div>
-        </section>
-        <!--about end-->
+      <!--about start-->
+      <section id="about" class="about">
+        <div class="heading">About Me</div>
+        <div class="wraper-skills">
+          <img src="assets/pic.jpg" alt="pic" />
+          <p class="info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+            molestias enim fuga, corrupti eius consectetur officia a recusandae
+            cupiditate natus odio. Distinctio velit provident quod molestias
+            repellat dolores illum esse iure error? Voluptas id ipsam velit
+            possimus praesentium accusamus sapiente cumque eos cum, quo
+            perferendis illo consequuntur non odit cupiditate vero, vitae sit
+            fugiat, provident eius qui. Omnis excepturi ullam minus
+            exercitationem harum sapiente obcaecati nostrum distinctio atque ea,
+            amet sed nisi officia totam molestias deleniti consequatur quidem
+            iste rem, expedita non. Placeat delectus libero soluta? Odio illo
+            dolore accusantium eaque perspiciatis quas, ipsam nesciunt, minus
+            totam ut, recusandae iure.
+          </p>
+        </div>
+      </section>
+      <!--about end-->
 
-        <!--contact start-->
-        <section id="contact" class="contact section">
-            <div class="heading">Contact</div>
-            <form action="mailto:mehfooz_ur_rehman@outlook.com" method="POST" name="EmailForm">
-                <div class="input">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                </div>
-                <div class="input">
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject" id="subject" placeholder="Subject">
-                </div>
-                <div class="input">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Message" rows="10"></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Submit</button>
-            </form>
-        </section>
-        <!--contact end-->
-
+      <!--contact start-->
+      <section id="contact" class="contact section">
+        <div class="heading">Contact</div>
+        <form
+          action="mailto:mehfooz_ur_rehman@outlook.com"
+          method="POST"
+          name="EmailForm"
+        >
+          <div class="input">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="input">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+            />
+          </div>
+          <div class="input">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </section>
+      <!--contact end-->
     </main>
     <footer class="footer">
-        <div class="footer-line"></div>
-        <div class="copyright">@ 2020 Mehfooz-ur-Rehman</div>
+      <div class="footer-line"></div>
+      <div class="copyright">@ 2020 Mehfooz-ur-Rehman</div>
     </footer>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
