@@ -8,6 +8,8 @@ firebase-debug.log*
 firebase-debug.*.log*
 
 build
+dist
+.parcel-cache
 
 .cache/
 

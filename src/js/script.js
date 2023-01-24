@@ -1,20 +1,19 @@
-const menuBtn = document.querySelector('.menu-btn');
+const menuBtn = document.querySelector(".menu-btn");
 let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-  if(!menuOpen) {
-    menuBtn.classList.add('open');
+menuBtn.addEventListener("click", () => {
+  if (!menuOpen) {
+    menuBtn.classList.add("open");
     menuOpen = true;
   } else {
-    menuBtn.classList.remove('open');
+    menuBtn.classList.remove("open");
     menuOpen = false;
   }
 });
 function Active() {
   var x = document.getElementById("myLinks");
-  if(x.style.display === "flex") {
+  if (x.style.display === "flex") {
     x.style.display = "none";
-  }
-  else{
+  } else {
     x.style.display = "flex";
   }
 }
