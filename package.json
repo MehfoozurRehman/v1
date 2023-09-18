@@ -5,14 +5,15 @@
   "source": "src/index.html",
   "dependencies": {},
   "devDependencies": {
-    "@parcel/transformer-sass": "2.8.3",
-    "parcel": "^2.8.3",
-    "sass": "^1.62.1"
+    "@parcel/transformer-sass": "2.9.3",
+    "parcel": "^2.9.3",
+    "sass": "^1.67.0"
   },
   "scripts": {
     "dev": "parcel",
     "build": "parcel build --dist-dir build",
-    "deploy": "yarn build && firebase deploy"
+    "deploy": "yarn build && firebase deploy",
+    "format": "npx prettier --write ."
   },
   "keywords": [],
   "author": "",
