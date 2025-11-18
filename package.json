@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "dependencies": {},
   "devDependencies": {
-    "@parcel/transformer-sass": "2.11.0",
-    "parcel": "^2.11.0",
-    "sass": "^1.69.7"
+    "@parcel/transformer-sass": "2.16.1",
+    "parcel": "^2.16.1",
+    "sass": "^1.94.1"
   },
   "scripts": {
     "dev": "parcel",
