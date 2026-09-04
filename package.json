@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "dependencies": {},
   "devDependencies": {
-    "@parcel/transformer-sass": "2.16.1",
-    "parcel": "^2.16.1",
-    "sass": "^1.94.2"
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sass": "^1.104.0"
   },
   "scripts": {
     "dev": "parcel",
