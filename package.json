@@ -10,8 +10,8 @@
     "sass": "^1.94.2"
   },
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build --dist-dir build",
+    "dev": "node api.js && parcel",
+    "build": "node api.js && parcel build --dist-dir build",
     "deploy": "yarn build && firebase deploy",
     "format": "npx prettier --write ."
   },
