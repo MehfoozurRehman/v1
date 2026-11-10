@@ -72,4 +72,6 @@ node_modules/
 
 # dotenv environment variables file
 .gitignore
-config.bat
+
+.env*
+!.env.example
